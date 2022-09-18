@@ -1,0 +1,42 @@
+{
+  "type": "WarnButtonsScreen",
+  "skin": "engine:mainGameScreen",
+  "contents": {
+    "type": "RelativeLayout",
+    "contents": [
+      {
+        "type": "RowLayout",
+        "contents": [
+          {
+            "type": "UIWarnButton",
+            "id": "warningButton",
+            "text": "Warning"
+          },
+          {
+            "type": "UIWarnButton",
+            "text": "Disabled",
+            "enabled": false
+          },
+          {
+            "type": "UIWarnButton",
+            "text": "Normal"
+          }
+        ],
+        "layoutInfo": {
+          "position-top": {
+            "offset": 32
+          },
+          "position-bottom": {
+            "offset": 32
+          },
+          "position-left": {
+            "offset": 32
+          },
+          "position-right": {
+            "offset": 32
+          }
+        }
+      }
+    ]
+  }
+}

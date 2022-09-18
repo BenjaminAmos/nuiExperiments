@@ -1,0 +1,11 @@
+{
+    "id" : "nuiExperiments",
+    "version" : "0.1.0",
+    "displayName" : "NUI Experiments",
+    "description" : "Some samples demonstrating the use of NUI in Destination Sol.",
+    "dependencies" :  [
+        {
+            "id" : "engine"
+        }
+    ]
+}

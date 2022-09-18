@@ -1,0 +1,78 @@
+{
+  "type": "EmptyIfInvisibleContainersScreen",
+  "skin": "engine:mainGameScreen",
+  "contents": {
+    "type": "RelativeLayout",
+    "contents": [
+      {
+        "type": "FlowLayout",
+        "horizontalSpacing": 16,
+        "verticalSpacing": 16,
+        "contents": [
+          {
+            "type": "EmptyIfInvisibleContainer",
+            "id": "hideBox",
+            "content": {
+              "type": "UIButton",
+              "family": "sideUIButton",
+              "text": "Button 1"
+            }
+          },
+          {
+            "type": "UIButton",
+            "family": "sideUIButton",
+            "text": "Button 2"
+          },
+          {
+            "type": "UIButton",
+            "family": "sideUIButton",
+            "text": "Button 3"
+          }
+        ],
+        "layoutInfo": {
+          "position-left": {
+            "offset": 32
+          },
+          "position-right": {
+            "offset": 32
+          },
+          "position-top": {
+            "target": "MIDDLE",
+            "offset": 32
+          },
+          "position-bottom": {
+            "offset": 32
+          }
+        }
+      },
+      {
+        "type": "UICheckbox",
+        "id": "showCheckbox",
+        "layoutInfo": {
+          "position-bottom": {
+            "target": "MIDDLE"
+          },
+          "use-content-width": true,
+          "use-content-height": true
+        }
+      },
+      {
+        "type": "UILabel",
+        "text": "Show",
+        "layoutInfo": {
+          "position-left": {
+            "widget": "showCheckbox",
+            "target": "RIGHT",
+            "offset": 8
+          },
+          "position-top": {
+            "widget": "showCheckbox",
+            "target": "TOP"
+          },
+          "use-content-width": true,
+          "use-content-height": true
+        }
+      }
+    ]
+  }
+}

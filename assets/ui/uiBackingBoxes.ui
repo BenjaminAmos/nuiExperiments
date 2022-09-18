@@ -1,0 +1,58 @@
+{
+  "type": "UIBackingBoxesScreen",
+  "skin": "nuiExperiments:uiBackingBoxes",
+  "contents": {
+    "type": "RelativeLayout",
+    "contents": [
+      {
+        "type": "RowLayout",
+        "contents": [
+          {
+            "type": "UIBackingBox",
+            "content": {
+              "type": "UILabel",
+              "text": "Inside Backed Box"
+            }
+          },
+          {
+            "type": "UIBox",
+            "content": {
+              "type": "UILabel",
+              "text": "Inside Normal Box"
+            }
+          }
+        ],
+        "layoutInfo": {
+          "position-top": {
+            "target": "MIDDLE"
+          },
+          "position-right": {
+            "target": "CENTER"
+          },
+          "position-bottom": {
+            "offset": 32
+          },
+          "position-left": {
+            "offset": 32
+          }
+        }
+      },
+      {
+        "type": "UILabel",
+        "id": "touchDetectLabel",
+        "text": "Click somewhere on the screen.",
+        "layoutInfo": {
+          "position-top": {
+            "target": "MIDDLE"
+          },
+          "position-left": {
+            "target": "CENTER"
+          },
+          "position-horizontal-center": {},
+          "use-content-width": true,
+          "use-content-height": true
+        }
+      }
+    ]
+  }
+}

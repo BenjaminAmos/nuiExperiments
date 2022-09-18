@@ -1,0 +1,36 @@
+{
+  "type": "UILabelledIconsScreen",
+  "skin": "engine:mainGameScreen",
+  "contents": {
+    "type": "RelativeLayout",
+    "contents": [
+      {
+        "type": "ColumnLayout",
+        "autoSizeColumns": true,
+        "contents": [
+          {
+            "type": "UILabelledIcon",
+            "text": "Only text"
+          },
+          {
+            "type": "UILabelledIcon",
+            "icon": "engine:uiCompass",
+            "text": "Icon with text (Left)",
+            "iconAlign": "LEFT"
+          },
+          {
+            "type": "UILabelledIcon",
+            "icon": "engine:uiPlanetProximityIndicator",
+            "text": "Icon with text (Right)",
+            "iconAlign": "RIGHT"
+          }
+        ],
+        "layoutInfo": {
+          "position-top": {
+            "target": "MIDDLE"
+          }
+        }
+      }
+    ]
+  }
+}

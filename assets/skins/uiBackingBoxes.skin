@@ -1,0 +1,8 @@
+{
+  "inherit": "engine:mainGameScreen",
+  "elements": {
+    "UIBackingBox": {
+      "background": "engine:background"
+    }
+  }
+}
